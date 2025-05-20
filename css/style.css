@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+
+    background-image: url(../assets/bg-tech.jpg);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 300px;
+    min-height: 400px;
+    background-color: #fafafa40;
+    backdrop-filter: blur(4px);
+    border: 1px solid #fafafa80;
+    border-radius: 16px;
+    padding: 66px 16px 16px 16px;
+    position: relative;
+}
+
+.foto {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    translate: -50% -50%;
+    border: 1px solid #fafafa80;
+}
+
+.foto img {
+    width: 100%;
+    display: block;
+}
