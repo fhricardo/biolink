@@ -10,11 +10,9 @@
 body {
     width: 100%;
     min-height: 100vh;
-
     background-image: url(../assets/bg-tech.jpg);
     background-size: cover;
     background-position: center;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,7 +115,6 @@ a {
     i {
         margin-right: 8px;
     }
-
 }
 
 a:hover {
